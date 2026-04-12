@@ -52,4 +52,26 @@ while FenceCount < 4:
     Course.append(Fence(height, risk))
     FenceCount += 1
 
-for fence in Course:
+average1, average2 = 0, 0
+name1 = Horses[0].GetName()
+name2 = Horses[1].GetName()
+for i in range(4):
+    fence = Course[i]
+    success = Horses[0].Success(fence.GetHeight(), fence.GetRisk())
+    print(f"The horse {name1} at fence {i+1} has a {success}")
+    average1 += success
+for i in range(4):
+    fence = Course[i]
+    success = Horses[1].Success(fence.GetHeight(), fence.GetRisk())
+    print(f"The horse {name2} at fence {i+1} has a {success}")
+    average2 += success
+average1 /= 4
+average2 /= 4
+
+print(f"The horse {name1} has an average {average1}% chance of jumping over all four fences")
+print(f"The horse {name2} has an average {average2}% chance of jumping over all four fences")
+
+if average1 > average2:
+    print(f"The horse with the highest chance of success is {name1}")
+if average1 < average2:
+    print(f"The horse with the highest chance of success is {name2}")
