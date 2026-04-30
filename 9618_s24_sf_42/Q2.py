@@ -24,7 +24,7 @@ class Node:
 
 class TreeClass:
     def __init__(self):
-        self.Tree = [Node(-1)] # Node
+        self.Tree = [Node(-1)] # List Node
         self.FirstNode = -1 # Integer
         self.NumberNodes = 0 # Integer
 
@@ -35,15 +35,16 @@ class TreeClass:
             self.FirstNode = 0
         else:
             CurrentNode = self.Tree[self.FirstNode]
-            while CurrentNode.LeftPointer == -1 and CurrentNode.RightPointer == -1:
-                if CurrentNode.Data > NewNode.Data:
-                    CurrentNode = self.Tree[CurrentNode.LeftPointer]
-                    if CurrentNode.LeftPointer == -1:
-                        CurrentNode.LeftPointer = self.NumberNodes
-                elif CurrentNode.Data < NewNode.Data:
-                    CurrentNode = self.Tree[CurrentNode.RightPointer]
-                    if CurrentNode.RightPointer == -1:
-                        CurrentNode.RightPointer = self.NumberNodes
+            self.Tree.append(NewNode)
+            while CurrentNode.GetLeft() != -1 and CurrentNode.GetRight() != -1:
+                if CurrentNode.GetData() > NewNode.GetData():
+                    CurrentNode = self.Tree[CurrentNode.GetLeft()]
+                elif CurrentNode.GetData() < NewNode.GetData():
+                    CurrentNode = self.Tree[CurrentNode.GetRight()]
+            if CurrentNode.GetData() > NewNode.GetData():
+                CurrentNode.SetLeft(self.NumberNodes)
+            elif CurrentNode.GetData() < NewNode.GetData():
+                CurrentNode.SetRight(self.NumberNodes)
             self.NumberNodes += 1
 
     def OutputTree(self):
@@ -51,6 +52,14 @@ class TreeClass:
             print("No nodes")
         else:
             for node in self.Tree:
-                print(node)
+                print(node.GetLeft(), node.GetData(), node.GetRight())
 
 TheTree = TreeClass()
+TheTree.InsertNode(Node(10))
+TheTree.InsertNode(Node(11))
+TheTree.InsertNode(Node(5))
+TheTree.InsertNode(Node(1))
+TheTree.InsertNode(Node(20))
+TheTree.InsertNode(Node(7))
+TheTree.InsertNode(Node(15))
+TheTree.OutputTree()

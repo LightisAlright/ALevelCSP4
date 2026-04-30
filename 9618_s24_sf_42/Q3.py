@@ -25,7 +25,8 @@ def RecursiveInsertion(IntegerArray, NumberElements):
     return IntegerArray
 
 def IterativeInsertion(IntegerArray):
-    pass
+    for i in range(len(IntegerArray)):
+
 
 ReturnedArray = RecursiveInsertion(NumberArray, len(NumberArray))
 print("Recursive")
