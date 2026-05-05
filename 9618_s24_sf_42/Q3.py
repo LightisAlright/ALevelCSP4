@@ -24,10 +24,26 @@ def RecursiveInsertion(IntegerArray, NumberElements):
     IntegerArray[CheckItem + 1] = LastItem
     return IntegerArray
 
-def IterativeInsertion(IntegerArray):
-    for i in range(len(IntegerArray)):
+def IterativeInsertion(IntegerArray, NumberElements):
+    while NumberElements > 0:
+        LastItem = IntegerArray[NumberElements - 1]
+        CheckItem = NumberElements - 2
+        LoopAgain = True
+        if CheckItem < 0:
+            LoopAgain = False
+        elif IntegerArray[CheckItem] <= LastItem:
+            LoopAgain = False
+        while LoopAgain:
+            IntegerArray[CheckItem + 1] = IntegerArray[CheckItem]
+            CheckItem = CheckItem - 1
+            if CheckItem < 0:
+                LoopAgain = False
+            elif IntegerArray[CheckItem] <= LastItem:
+                LoopAgain = False
+        IntegerArray[CheckItem + 1] = LastItem
+        NumberElements = NumberElements - 1
+    return IntegerArray
 
-
-ReturnedArray = RecursiveInsertion(NumberArray, len(NumberArray))
-print("Recursive")
+ReturnedArray = IterativeInsertion(NumberArray, len(NumberArray))
+print("iterative")
 print(ReturnedArray)
