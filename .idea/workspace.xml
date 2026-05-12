@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3583ec75-df00-4513-a712-f2c5fae9c706" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/9618_w25_sf_43/Q1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9618_w25_sf_43/Q2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9618_w25_sf_43/Q3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/ALevelCSP4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ALevelCSP4.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9618_s25_sf_41/Blue.txt" beforeDir="false" afterPath="$PROJECT_DIR$/9618_s25_sf_41/Blue.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9618_s25_sf_41/Green.txt" beforeDir="false" afterPath="$PROJECT_DIR$/9618_s25_sf_41/Green.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9618_s25_sf_41/Orange.txt" beforeDir="false" afterPath="$PROJECT_DIR$/9618_s25_sf_41/Orange.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9618_s25_sf_41/Pink.txt" beforeDir="false" afterPath="$PROJECT_DIR$/9618_s25_sf_41/Pink.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9618_s25_sf_41/Q1.py" beforeDir="false" afterPath="$PROJECT_DIR$/9618_s25_sf_41/Q1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9618_s25_sf_41/Q2.py" beforeDir="false" afterPath="$PROJECT_DIR$/9618_s25_sf_41/Q2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9618_s25_sf_41/Q3.py" beforeDir="false" afterPath="$PROJECT_DIR$/9618_s25_sf_41/Q3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9618_s25_sf_41/Red.txt" beforeDir="false" afterPath="$PROJECT_DIR$/9618_s25_sf_41/Red.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9618_s25_sf_41/Yellow.txt" beforeDir="false" afterPath="$PROJECT_DIR$/9618_s25_sf_41/Yellow.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,17 +36,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.Q1.executor": "Run",
-    "Python.Q2.executor": "Run",
-    "Python.Q3.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Q1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Q2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Q3.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Q3" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="ALevelCSP4" />
@@ -63,7 +57,6 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.13" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9618_s25_sf_41" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -81,7 +74,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-d7ad00fb9fc3-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23726.102" />
+        <option value="bundled-python-sdk-e0ed3721d81e-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.25410.159" />
       </set>
     </attachedChunks>
   </component>
