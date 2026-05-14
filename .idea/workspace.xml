@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3583ec75-df00-4513-a712-f2c5fae9c706" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/9618_w25_sf_43/Q1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9618_w25_sf_43/Q2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9618_w25_sf_43/Q3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ALevelCSP4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ALevelCSP4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9618_w25_sf_43/Q2.py" beforeDir="false" afterPath="$PROJECT_DIR$/9618_w25_sf_43/Q2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9618_w25_sf_43/Q3.py" beforeDir="false" afterPath="$PROJECT_DIR$/9618_w25_sf_43/Q3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
